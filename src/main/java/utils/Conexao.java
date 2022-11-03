@@ -9,9 +9,9 @@ public class Conexao {
     public static Connection conectar() {
         Connection con = null;
 
-        String url = "jdbc:mysql://localhost/agenda";
-        String user = "root";
-        String pswd = "teshi.kaue123";
+        String url = "jdbc:mysql://localhost/";
+        String user = "";
+        String pswd = "";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
